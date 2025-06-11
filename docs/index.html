@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NH Resource Group | Government Contract Fulfillment</title>
+    <link rel="icon" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3crect width='100' height='100' rx='20' fill='%233B82F6'/%3e%3ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-size='50' font-family='Inter' font-weight='bold' fill='white'%3eNH%3c/text%3e%3c/svg%3e">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            /* Using the user-provided image */
+            background-image: linear-gradient(rgba(17, 24, 39, 0.75), rgba(17, 24, 39, 0.75)), url('https://www.investopedia.com/thmb/gqQndB8E5MS0U9rj0gtNG6zveyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-588594274-ef65d046bf6b49f1a8b268b7cc44ef83.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .cta-button {
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        .service-card, .process-step, .industry-card, .packaging-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover, .process-step:hover, .industry-card:hover, .packaging-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        /* Scroll-behavior for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900">
+                NH Resource Group
+                <span class="block text-xs font-normal text-blue-600">Nathan's Home LLC</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="#shipping" class="text-gray-600 hover:text-blue-600">Shipping</a>
+                <a href="#industries" class="text-gray-600 hover:text-blue-600">Industries</a>
+                <a href="#quality" class="text-gray-600 hover:text-blue-600">Quality</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 cta-button">Contact Us</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="#home" class="block py-2 text-gray-600 hover:text-blue-600">Home</a>
+             <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About</a>
+             <a href="#services" class="block py-2 text-gray-600 hover:text-blue-600">Services</a>
+             <a href="#shipping" class="block py-2 text-gray-600 hover:text-blue-600">Shipping</a>
+             <a href="#industries" class="block py-2 text-gray-600 hover:text-blue-600">Industries</a>
+             <a href="#quality" class="block py-2 text-gray-600 hover:text-blue-600">Quality</a>
+             <a href="#contact" class="block mt-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 cta-button text-center">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section text-white">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Your Trusted Government Contract Fulfillment Partner</h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">We are your dedicated product sourcing partner, specializing in supplying goods for federal, state, and local government contracts.</p>
+                <a href="#contact" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 cta-button inline-block">Request a Quote</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">About NH Resource Group</h2>
+                    <p class="text-gray-600 mb-4">NH Resource Group (Nathan's Home LLC) is a premier Government Contract Fulfillment Agency. Our mission is to bridge the gap between government needs and reliable product sourcing. With years of experience in procurement and logistics, we have established ourselves as a trusted partner for government agencies seeking efficient and cost-effective solutions.</p>
+                    <p class="text-gray-600">We understand the unique challenges and stringent requirements of government contracting. We pride ourselves on building lasting partnerships through transparency, traceability, and efficiency at every stage. From initial sourcing to final delivery, we are your trusted partner in achieving successful outcomes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Our Core Services</h2>
+                    <p class="text-gray-600 mt-2">We provide comprehensive solutions to meet government procurement needs.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center service-card">
+                        <div class="flex justify-center mb-4"><svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+                        <h3 class="text-xl font-bold mb-2">Product Sourcing</h3>
+                        <p class="text-gray-600">Leveraging our vast network, we find the exact products required for any contract, ensuring full compliance and quality.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center service-card">
+                        <div class="flex justify-center mb-4"><svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2 2h8a1 1 0 001-1zM3 11h10"></path></svg></div>
+                        <h3 class="text-xl font-bold mb-2">Custom Procurement</h3>
+                        <p class="text-gray-600">We specialize in fulfilling government-specific needs, managing the entire process to meet detailed specifications.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center service-card">
+                        <div class="flex justify-center mb-4"><svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m5-4h1m-1 4h1m-1-4h1m-1-4h1"></path></svg></div>
+                        <h3 class="text-xl font-bold mb-2">Logistics Management</h3>
+                        <p class="text-gray-600">Our team expertly manages the entire supply chain, from shipping and delivery coordination to ensuring timely arrivals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialized Packaging Section -->
+        <section id="shipping" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Specialized Shipping & Packaging</h2>
+                    <p class="text-gray-600 mt-2">Adhering to the strictest protocols for safe and compliant delivery.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-gray-100 p-8 rounded-lg packaging-card text-center">
+                        <h3 class="font-bold text-xl mb-2">Standard & Commercial</h3>
+                        <p class="text-gray-600">Expert handling of all regular commercial shipping and packaging needs for non-sensitive materials and general goods.</p>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-lg packaging-card text-center">
+                        <h3 class="font-bold text-xl mb-2">ASTM Compliance</h3>
+                        <p class="text-gray-600">Proficient in meeting specific ASTM International standards required for various materials, ensuring safety and quality.</p>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-lg packaging-card text-center">
+                        <h3 class="font-bold text-xl mb-2">MIL-STD Packaging</h3>
+                        <p class="text-gray-600">Full capability to manage MIL-STD-2073, MIL-STD-129, and other military-specific packaging and shipping requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries We Serve Section -->
+        <section id="industries" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Industries We Serve</h2>
+                    <p class="text-gray-600 mt-2">Delivering tailored solutions across the government spectrum.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md industry-card">
+                        <h3 class="text-xl font-bold mb-2 text-center">Federal Agencies</h3>
+                        <p class="text-gray-600">We supply a broad range of furniture, appliances, and technology solutions for federal offices, ensuring full compliance with procurement guidelines and creating functional spaces for government operations.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md industry-card">
+                        <h3 class="text-xl font-bold mb-2 text-center">State & Local Government</h3>
+                        <p class="text-gray-600">From municipal offices and conference rooms to public service areas, we provide tailored design solutions and products that help state and local agencies operate more efficiently and effectively.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md industry-card">
+                        <h3 class="text-xl font-bold mb-2 text-center">Military & Defense</h3>
+                        <p class="text-gray-600">Our team supplies durable, high-performance products that meet the unique requirements of military facilities, including specialized furnishings and equipment designed for high-demand environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Commitment to Quality Section -->
+        <section id="quality" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-4xl mx-auto">
+                    <div class="flex justify-center mb-6">
+                        <svg class="w-20 h-20 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">A Foundation of Quality and Reliability</h2>
+                    <p class="text-gray-600 mb-6">At NH Resource Group, quality is not just a goal; it's our top priority. We believe successful government projects are built on a foundation of superior products and services. To meet and exceed expectations, we implement rigorous quality assurance practices.</p>
+                    <ul class="space-y-4 inline-block text-left">
+                        <li><strong class="text-blue-600">Strategic Partnerships:</strong> We collaborate with industry-leading manufacturers to source products known for their durability, performance, and compliance.</li>
+                        <li><strong class="text-blue-600">Comprehensive Vetting:</strong> We implement multi-stage quality control processes, from initial sourcing to final installation, ensuring every item meets the highest standards.</li>
+                        <li><strong class="text-blue-600">Performance Guarantee:</strong> We stand by our products, conducting ongoing evaluations to ensure they provide lasting value and perform as expected over their entire lifecycle.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Get in Touch</h2>
+                    <p class="text-gray-600 mt-2">Have a question or need a quote? Fill out the form below and we'll get back to you shortly.</p>
+                </div>
+                <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                     <form action="https://formspree.io/f/xnnvpyyr" method="POST">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                             <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="_replyto" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                             <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                             <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div class="mt-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                        </div>
+                        <div class="text-center mt-6">
+                            <button type="submit" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 cta-button">Send Message</button>
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                 <div class="text-center md:text-left mb-4 md:mb-0">
+                    <h4 class="text-lg font-bold">NH Resource Group</h4>
+                    <p class="text-sm text-gray-400">Your Partner in Government Contract Fulfillment</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-sm">&copy; 2024 NH Resource Group (Nathan's Home LLC). All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelectorAll('#mobile-menu a, .hidden.md\\:flex a');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                if(link.href.includes('#')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
